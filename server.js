@@ -14,8 +14,6 @@ const db = knex({
 	client: 'pg',
 	connection: {
 		connectionString: process.env.DATABASE_URL,
-		user: process.env.POSTGRES_USERNAME,
-		password: process.env.POSTGRES_PASSWORD,
 		database: 'smart-brain',
 		ssl: true
 	}
