@@ -40,5 +40,5 @@ app.post('/imageurl', (req, res) => { image.handleClarifaiApiCall(req, res) });
 // Turn on the server
 let portToUse = process.env.PORT || 3000;
 app.listen(portToUse, () => {
-	console.log(`app is running on port ${portToUse}`);
+	console.log(`Server is running on port ${portToUse}`);
 });
